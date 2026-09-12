@@ -19,6 +19,8 @@ BuildRequires:	rust-packaging
 BuildRequires:	clang
 Requires:	python%{pyver}dist(regex)
 Requires:	python%{pyver}dist(requests)
+# setuptools-rust produces no usable debugsource list
+%undefine _debugsource_packages
 
 %description
 tiktoken is OpenAI's fast BPE tokeniser. Required by LiteLLM / Aider.
