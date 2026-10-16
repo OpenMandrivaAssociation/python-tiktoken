@@ -1,6 +1,6 @@
 Name:		python-tiktoken
 Version:	0.14.0
-Release:	1
+Release:	2
 Summary:	Fast BPE tokeniser for OpenAI models
 License:	MIT
 Group:		Development/Python
